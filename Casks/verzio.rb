@@ -1,9 +1,9 @@
 cask "verzio" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.0.1"
-  sha256 arm:   "9780e4a647501252914c2c786318b3715b22ed2560ea3fee24d9626cad34a39d",
-         intel: "fd6d6306809fdce293b7fea12a9083740ef9116de9a596990772ceb8ef573d75"
+  version "1.1.0"
+  sha256 arm:   "4494e9f68f7b5af9cf6748b050b4a6d09cc3ec57e4cf90366d8ea14106829c9a",
+         intel: "6a2ada841069c846c8ef56398a19545b3d29e61c09cc08b2d57ddf9215579e65"
 
   url "https://ztydsycmuuscuepyzvch.supabase.co/storage/v1/object/public/verzio-releases/Verzio-#{arch}.zip"
   name "Verzio"
