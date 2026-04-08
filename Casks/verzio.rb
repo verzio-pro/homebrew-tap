@@ -4,9 +4,9 @@
 cask "verzio" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.1.13"
-  sha256 arm:   "e3deb084fa31cd984abb5a0a9e0d21bc4b527b9568f77c244179062a1e824de5",
-         intel: "f4c89d63f296b891989b712866cb580f8d79fe39d91f0d77c6a57ad179ab3fad"
+  version "1.1.14"
+  sha256 arm:   "96f6e8dbf2a040606f26317f1b9616539c0c0a5955e006ac54dbcef6f723c5c3",
+         intel: "73df3343e3ee0cd8ff6667c5cce98396718fc48a0cf5110f62ffd7f7cfc77e63"
 
   url "https://github.com/jmpellizzer/Verzio/releases/download/v#{version}/Verzio-#{arch}.zip"
   name "Verzio"
